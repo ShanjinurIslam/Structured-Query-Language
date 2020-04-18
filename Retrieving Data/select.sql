@@ -121,6 +121,21 @@ where first_name like '%s%'
 
 select *
 from employees
-where first_name like '_s%' /* Exactly one character */ 
+where first_name like '_s%'
+/* Exactly one character */
 
+/* order by asc, desc */
+
+/*
+
+SELECT ...
+FROM table_name
+WHERE ...
+ORDER BY Column1 [ASC | DESC], Column2 [ASC | DESC], ...
+
+*/
+
+select salary
+from employees
+order by salary desc;
 
